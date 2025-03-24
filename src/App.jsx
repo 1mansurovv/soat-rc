@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "./components/modal";
 
 export default function App() {
-              
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div>
